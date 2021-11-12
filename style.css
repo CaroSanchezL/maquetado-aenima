@@ -318,6 +318,23 @@ section, header, footer {
     font-weight: bold;
 }
 
+/*-------------------------------------BLOG---------------------------------------*/
+
+.blog {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    margin-top: -110px;
+}
+
+.blog-container {
+    padding: 0 95px;
+}
+
+.blog-entries {
+    display: flex;
+    margin: 40px 8px 0 8px;
+}
 .recent-article {
     border-radius: 6px;
 }
