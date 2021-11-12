@@ -127,7 +127,49 @@ section, header, footer {
 }
 
 .cover-slider {
-    background: transparent url('img/nav_slider.png') 0% 0% no-repeat padding-box;
+    position: absolute;
+    left: 0;
+    bottom: 70px
+}
+
+.slider-line {
+    position: absolute;
+    bottom: 0;
+    border: 2px solid #FA6980;
+    background-color: #FA6980;
+    width: 120px;
+    z-index: 1;
+}
+
+.slider-back-circle {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    bottom: -25px;
+    left: 100px
+}
+
+.slider-front-circle {
+    position: absolute;
+    background-color: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    bottom: -16px;
+    left: 110px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-front-circle span {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .next-cover-container {
