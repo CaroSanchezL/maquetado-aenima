@@ -1,0 +1,203 @@
+.web-header {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.nav-link {
+    text-align: left;
+    font: normal normal normal 18px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #CBD0D3;
+}
+
+.is-active {
+    color: #2A3037
+}
+
+.cover {
+    background: transparent url(Assets/img/Viajes_Hero.jpg) 0% 0% no-repeat padding-box;
+}
+
+.pin {
+    background: transparent url('img/ic_pin.png') 0% 0% no-repeat padding-box;
+}
+
+.cover-title {
+    text-align: left;
+    font: normal normal bold 48px/42px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.divider {
+    border: 2px solid #FFFFFF;
+}
+
+.cover-subtitle {
+    text-align: left;
+    font: normal normal bold 24px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.cover-text {
+    text-align: left;
+    font: normal normal normal 16px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.cover-slider {
+    background: transparent url('img/nav_slider.png') 0% 0% no-repeat padding-box;
+}
+
+.next-cover-article {
+    background: #2A3037 0% 0% no-repeat padding-box;
+    border: 2px dashed #FFFFFF;
+    border-radius: 6px;
+    opacity: 0.5;
+}
+
+.next-title {
+    text-align: left;
+    font: normal normal bold 16px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FA6980;
+}
+
+.arrow {
+    background: transparent url('img/arrow.png') 0% 0% no-repeat padding-box;
+}
+
+.next-subtitle {
+    text-align: left;
+    font: normal normal bold 16px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.next-text {
+    text-align: left;
+    font: normal normal 300 14px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.tendencias {
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+}
+
+.section-title {
+    text-align: left;
+    font: normal normal bold 24px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #2A3037;
+}
+
+.card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+}
+
+.new-article {
+    background: #FA6980 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    text-align: left;
+    font: normal normal bold 16px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.card-title {
+    text-align: left;
+    font: normal normal bold 16px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #2A3037;
+}
+
+.card-text {
+    text-align: left;
+    font: normal normal normal 13px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #7A838D;
+}
+
+.card-text span {
+    font-weight: bold;
+}
+
+.recent-article {
+    border-radius: 6px;
+}
+
+.first-article {
+    background: transparent url(Assets/img/articulo_big_01.png) 0% 0% no-repeat padding-box;
+}
+
+.second-article {
+    background: transparent url(Assets/img/articulo_big_02.png) 0% 0% no-repeat padding-box;
+}
+
+.recent-article-title {
+    text-align: left;
+    font: normal normal bold 16px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.recent-article-subtitle {
+    text-align: left;
+    font: normal normal bold 24px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.recent-article-text {
+    text-align: left;
+    font: normal normal normal 16px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.clock-img {
+    background: transparent url('img/time.png') 0% 0% no-repeat padding-box;
+}
+
+.article-timestamp {
+    text-align: left;
+    font: normal normal normal 13px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #CBD0D3;
+}
+
+.older-article {
+    color: #202124;
+}
+
+.older-img {
+    width: 352px;
+    height: 210px
+}
+
+.first-img {
+    background: transparent url(Assets/img/articulo_small_01.png) 0% 0% no-repeat padding-box;
+}
+
+.second-img {
+    background: transparent url(Assets/img/articulo_small_02.png) 0% 0% no-repeat padding-box;
+}
+
+.third-img {
+    background: transparent url(Assets/img/articulo_small_03.png) 0% 0% no-repeat padding-box;
+}
+
+.older-article-title {
+    text-align: left;
+    font: normal normal bold 16px/26px Montserrat;
+    letter-spacing: 0px;
+}
+
+footer {
+    background: #2A3037 0% 0% no-repeat padding-box;
+}
