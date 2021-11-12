@@ -432,7 +432,30 @@ section, header, footer {
 .article-timestamp img {
     margin-right: 5px
 }
+/*----------------------------------------FOOTER------------------------------------------------*/
 
 footer {
-    background: #2A3037 0% 0% no-repeat padding-box;
+    background-color: #2A3037;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-self: center;
+    height: 96px;
+    }
+
+.footer-container {  
+    align-self: center;  
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rrss {
+    width: 51px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
 }
