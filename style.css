@@ -1,12 +1,44 @@
+/*--------------------------------GENERAL PROPERTIES-------------------------------------*/
+
+body {
+   background-color: #fafafa
+}
+
+section, header, footer {
+    max-width: 1366px;
+}
+
+/*--------------------------------WEB HEADER-----------------------------------------------*/
 .web-header {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     box-shadow: 0px 3px 6px #00000029;
+    height: 60px;
+    display: flex;
+}
+
+.header-container {  
+    align-self: center;  
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
 }
 
 .nav-link {
     text-align: left;
-    font: normal normal normal 18px/13px Montserrat;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     letter-spacing: 0px;
+    margin: 17px 33px 22px 0;
     color: #CBD0D3;
 }
 
@@ -14,37 +46,65 @@
     color: #2A3037
 }
 
+/*--------------------------------------------COVER-------------------------------------*/
+
 .cover {
-    background: transparent url(Assets/img/Viajes_Hero.jpg) 0% 0% no-repeat padding-box;
+    background-image: url(Assets/img/Viajes_Hero.jpg);
+}
+
+.cover article {
+    width: 720px;
+    height: 214px;
+}
+
+.cover-header {
+    display: flex;
+    align-items: center;
 }
 
 .pin {
-    background: transparent url('img/ic_pin.png') 0% 0% no-repeat padding-box;
+    width: 23.8px;
+    height: 34px
 }
 
 .cover-title {
     text-align: left;
-    font: normal normal bold 48px/42px Montserrat;
+    font-size: 48px;
+    line-height: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     letter-spacing: 0px;
     color: #FFFFFF;
+    margin: 0 17.5px
 }
 
 .divider {
     border: 2px solid #FFFFFF;
+    width: 536px;
+    margin: 30.6px 0 23.36px 0;
 }
 
 .cover-subtitle {
     text-align: left;
-    font: normal normal bold 24px/34px Montserrat;
+    font-size: 24px;
+    line-height: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     letter-spacing: 0px;
     color: #FFFFFF;
 }
 
 .cover-text {
     text-align: left;
-    font: normal normal normal 16px/26px Montserrat;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     letter-spacing: 0px;
     color: #FFFFFF;
+    width: 535.7px;
+    height: 60.63px;
+    overflow: hidden;
 }
 
 .cover-slider {
