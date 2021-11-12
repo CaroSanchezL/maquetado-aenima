@@ -1,11 +1,18 @@
 /*--------------------------------GENERAL PROPERTIES-------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-   background-color: #fafafa
+   background-color: #fafafa;
+   display: flex;
+   flex-direction: column;
 }
 
 section, header, footer {
     max-width: 1366px;
+    margin: 0 auto;
 }
 
 /*--------------------------------WEB HEADER-----------------------------------------------*/
@@ -14,12 +21,17 @@ section, header, footer {
     box-shadow: 0px 3px 6px #00000029;
     height: 60px;
     display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    align-self: center
 }
 
 .header-container {  
     align-self: center;  
     display: flex;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
@@ -50,11 +62,17 @@ section, header, footer {
 
 .cover {
     background-image: url(Assets/img/Viajes_Hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
 }
 
 .cover article {
     width: 720px;
     height: 214px;
+    position: absolute;
+    top: 277px;
+    left: 110px;
 }
 
 .cover-header {
@@ -82,6 +100,7 @@ section, header, footer {
     border: 2px solid #FFFFFF;
     width: 536px;
     margin: 30.6px 0 23.36px 0;
+    background-color: #FFFFFF;
 }
 
 .cover-subtitle {
@@ -92,6 +111,7 @@ section, header, footer {
     font-weight: 700;
     letter-spacing: 0px;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .cover-text {
@@ -104,36 +124,61 @@ section, header, footer {
     color: #FFFFFF;
     width: 535.7px;
     height: 60.63px;
-    overflow: hidden;
 }
 
 .cover-slider {
     background: transparent url('img/nav_slider.png') 0% 0% no-repeat padding-box;
 }
 
-.next-cover-article {
-    background: #2A3037 0% 0% no-repeat padding-box;
+.next-cover-container {
+    width: 260px;
+    height: 157px;
+    background-color: rgba(42, 48, 55, 0.5);
     border: 2px dashed #FFFFFF;
     border-radius: 6px;
-    opacity: 0.5;
+    position: absolute;
+    bottom: 70px;
+    left: 967px;
+}
+
+.next-link {
+    margin: 27px 30px 29px 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.next-article {
+    display: flex;
+    margin-bottom: 12px;
+    align-items: baseline;
 }
 
 .next-title {
-    text-align: left;
-    font: normal normal bold 16px/20px Montserrat;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     letter-spacing: 0px;
     color: #FA6980;
+    margin: 0 16px 0 0px;
 }
 
 .arrow {
-    background: transparent url('img/arrow.png') 0% 0% no-repeat padding-box;
+    width: 6px;
+    height: 10px;
 }
 
 .next-subtitle {
     text-align: left;
-    font: normal normal bold 16px/20px Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     letter-spacing: 0px;
     color: #FFFFFF;
+    margin: 0
 }
 
 .next-text {
@@ -141,6 +186,7 @@ section, header, footer {
     font: normal normal 300 14px/22px Montserrat;
     letter-spacing: 0px;
     color: #FFFFFF;
+    margin-top: 11px;
 }
 
 .tendencias {
