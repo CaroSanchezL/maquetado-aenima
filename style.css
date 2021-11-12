@@ -234,7 +234,7 @@ section, header, footer {
 
 .tendencias {
     background-color: #EBEBEB;
-    padding: 117px 139px
+    height: 90vh;
 }
 
 .section-title {
@@ -242,19 +242,62 @@ section, header, footer {
     font: normal normal bold 24px/20px Montserrat;
     letter-spacing: 0px;
     color: #2A3037;
+    margin-left: 8px;
 }
 
+.tendencias-container {    
+    padding: 80px 95px;
+}
 
+.tendencias-cards-container {
+    display: flex;
+}
+
+.first-card-img {
+    background-image: url(Assets/img/card_01.png);
+    background-size: cover;
+}
+
+.new-article {
+    background: #FA6980 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    height: 32px;
+    width: 83px;
+    text-align: left;
+    font: normal normal bold 16px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 165px;
+    left: 35px;
+}
+
+.new-article-text {
+    align-self: center;
+}
 
 .card {
     background-color: #FFFFFF;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 6px;
-    margin: 8px;
+    margin: 40px 28px 0 8px;
     width: 352px;
     height: 314px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-description {
+    padding: 33px;
+    display: flex;    
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .card-title {
