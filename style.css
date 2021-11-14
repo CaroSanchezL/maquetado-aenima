@@ -494,17 +494,14 @@ footer {
 
     .cover {
         background-image: url(Assets/img/Viajes_Hero.jpg);
-        background-size: cover;
+        background-position: 30%;
         height: 100vh;
         position: relative;
     }
 
     .cover article {
-        width: 720px;
-        height: 214px;
         position: absolute;
-        top: 250px;
-        left: 95px;
+        top: 30%;
     }
 
     .next-cover-container {
@@ -674,10 +671,83 @@ footer {
 footer {
     margin: 0
 }
+
+.footer-container {
+    width: 90%;
 }
 
-/*-----------------------------------Breakpoint 710px------------------------*/
+.rrss {
+    margin-right: unset
+}
+}
+
+/*---------------------------------Breakpoint 710px-----------------------------*/
 
 @media screen and (max-width: 710px) {
 
+/*------------------------------------GENERAL-----------------------------------*/
+
+section, header, footer {
+    max-width: 540px;
+    margin: 0 auto;
 }
+
+
+/*--------------------------------------------COVER-------------------------------------*/
+
+.cover article {
+    width: 80%;
+    top: 350px;
+    left: 50px;
+}
+
+.pin {
+    height: 24px;
+    width: 18px;
+}
+
+.cover-title {
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.cover-text {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.cover-text {
+    display: none;
+}
+
+.divider {
+    width: 100%
+}
+
+.slider-line {
+    width: 50px
+}
+
+.slider-back-circle {
+    left: 40px
+}
+
+.slider-front-circle {
+    left: 50px
+}
+
+/*-------------------------------TENDENCIAS-----------------------------------*/
+
+.second-card {
+    display: none;
+}
+/*-------------------------------BLOG----------------------------------------*/
+
+/*---------------------------Recent articles----------------------------------*/
+
+.recent-article-text {
+    display: none;
+}
+
+}
+
