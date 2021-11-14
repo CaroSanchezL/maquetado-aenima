@@ -16,14 +16,32 @@
     <header class="web-header">
         <div class="header-container">
             <div>
-                <img src="Assets\logo\logo_01.svg">
+                <img src="Assets\logo\logo_01.svg" class="logo">
             </div>
-            <nav>
+            <nav class="desktop-nav">
                 <ul class="nav-list">
-                <li><a href="#home" class="nav-link is-active">HOME</a></li>
+                <li><a href="#home" class="nav-link">HOME</a></li>
                 <li><a href="#tendencias" class="nav-link">TENDENCIAS</a></li>
                 <li><a href="#blog" class="nav-link">BLOG</a></li>
                 </ul>
+            </nav>
+            <nav class="burger-menu">
+                <div class="menu-toggle">
+                    <button id="menu-button">
+                            <img src="Assets/iconos/hamburguer_menu.svg" id="hamburguer-icon">
+                            <img src="Assets/iconos/No.svg" class="close-icon hidden" id="close-icon">
+                    </button>
+                </div>
+                <div class="menu hidden" id="menu">
+                    <div class="dark-side-menu"></div>
+                    <ul class="menu-links">
+                        <a href="#home" class="nav-link"><li>HOME</li></a>
+                        <a href="#tendencias" class="nav-link"><li>TENDENCIAS</li></a>
+                        <a href="#blog" class="nav-link"><li>BLOG</li></a>
+                    </ul>
+                </div>
+                  </div>
+                </nav>
             </nav>
         </div>
     </header>
@@ -168,5 +186,6 @@
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>

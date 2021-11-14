@@ -54,8 +54,12 @@ section, header, footer {
     color: #CBD0D3;
 }
 
-.is-active {
+.nav-link:hover {
     color: #2A3037
+}
+
+.burger-menu {
+    display: none;
 }
 
 /*--------------------------------------------COVER-------------------------------------*/
@@ -531,11 +535,105 @@ footer {
 /*------------------------------------------Breakpoint 1000px---------------------------------*/
 
 @media screen and (max-width: 1000px) {
-    /*-------------------------------------------GENERAL -------------------------------------*/
+/*-------------------------------------------GENERAL -------------------------------------*/
     section, header, footer {
         max-width: 768px;
         margin: 0 auto;
     }
+
+/*----------------------------------------WEB HEADER--------------------------------------*/
+
+.header-container {
+    width: 90%;
+}
+
+.desktop-nav {
+    display: none;
+}
+
+.logo {
+    height: 15px;
+    width: 82px;
+}
+
+.burger-menu {
+    display: block;
+}
+
+.menu-toggle
+{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-toggle .menu {
+    cursor: pointer;
+}
+
+.menu-toggle a
+{
+  text-decoration: none;
+  color: #232323;
+}
+
+.menu-toggle img {
+    transition: all 0.5 ease-in;
+}
+
+.menu-toggle button {
+    border: none;
+    background-color: transparent;
+}
+
+.close-icon {
+    position: absolute;
+    right: 2px;
+}
+
+.menu
+{
+  position: absolute;
+  display: flex;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transition: all 0.5s ease;
+}
+
+.dark-side-menu {
+    width: 40%;
+    height: 110vh;
+    background-color: #2A3037;
+    position: relative;
+    z-index: 4;
+    opacity: 0.65;
+    bottom: 50px;
+}
+
+.menu-links {
+    width: 60%;
+    height: 110vh;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 50px;
+    list-style-type: none;
+    padding: 50px;
+    padding-top: 90px;
+}
+
+.menu li
+{
+  padding: 10px 0;
+  font-size: 22px;  
+  color: #232323;
+  font-weight: 500;
+}
+
+.hidden {
+    opacity: 0;    
+}
 
 /*--------------------------------------------COVER-------------------------------------*/
 
@@ -545,6 +643,17 @@ footer {
 
 .next-cover-container {
     display: none;
+}
+
+.cover-title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin: 0 17.5px
 }
 
 /*-------------------------------TENDENCIAS-----------------------------------*/
@@ -567,3 +676,8 @@ footer {
 }
 }
 
+/*-----------------------------------Breakpoint 710px------------------------*/
+
+@media screen and (max-width: 710px) {
+
+}
