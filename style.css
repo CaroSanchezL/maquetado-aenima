@@ -260,11 +260,6 @@ section, header, footer {
     display: flex;
 }
 
-.first-card-img {
-    background-image: url(Assets/img/card_01.png);
-    background-size: cover;
-}
-
 .new-article {
     background: #FA6980 0% 0% no-repeat padding-box;
     border-radius: 6px;
@@ -300,6 +295,22 @@ section, header, footer {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+}
+
+.first-card-img, .second-card-img, .third-card-img {
+    height: 57.4%;
+}
+
+.first-card-img {    
+    background-image: url(Assets/img/card_01.png);
+}
+
+.second-card-img {
+    background-image: url(Assets/img/card_02.png);
+}
+
+.third-card-img {
+    background-image: url(Assets/img/card_03.png);
 }
 
 .card-description {
