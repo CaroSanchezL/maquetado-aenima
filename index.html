@@ -25,7 +25,7 @@
                 <li><a href="#blog" class="nav-link">BLOG</a></li>
                 </ul>
             </nav>
-            <nav class="burger-menu">
+            <nav class="hamburger-menu">
                 <div class="menu-toggle">
                     <button id="menu-button">
                             <img src="Assets/iconos/hamburguer_menu.svg" id="hamburguer-icon">
@@ -35,12 +35,11 @@
                 <div class="menu hidden" id="menu">
                     <div class="dark-side-menu"></div>
                     <ul class="menu-links">
-                        <a href="#home" class="nav-link"><li>HOME</li></a>
-                        <a href="#tendencias" class="nav-link"><li>TENDENCIAS</li></a>
-                        <a href="#blog" class="nav-link"><li>BLOG</li></a>
+                        <li><a href="#home" class="nav-link">HOME</a></li>
+                        <li><a href="#tendencias" class="nav-link">TENDENCIAS</a></li>
+                        <li><a href="#blog" class="nav-link">BLOG</a></li>
                     </ul>
                 </div>
-                  </div>
                 </nav>
             </nav>
         </div>
@@ -68,7 +67,7 @@
             </div>
             <div class="next-cover-container">
                 <a class="next-link">
-                    <div class="next-article">
+                    <div class="next-title-icon">
                         <h3 class="next-title">PROXIMA AVENTURA</h3>
                         <img class="arrow" src="Assets\iconos\arrow.svg">
                     </div>
@@ -83,28 +82,28 @@
             <div class="tendencias-container">
                 <h2 class="section-title">TENDENCIAS</h2>
                 <div class="tendencias-cards-container">
-                    <article class="card first-card">
-                        <div class="first-card-img"></div>
-                        <div class="new-article">
-                            <span class="new-article-text">NUEVO</span>
+                    <article class="tendencias-card tendencias-first-card">
+                        <div class="tendencias-first-img"></div>
+                        <div class="tendencias-new">
+                            <span class="tendencias-new-text">NUEVO</span>
                         </div>
-                        <div class="card-description">
-                            <h3 class="card-title">Montañas y magia</h3>
-                            <p class="card-text">Aquí la descripción de <span>Montañas y magia</span>.</p>
-                        </div>
-                    </article>
-                    <article class="card second-card">
-                        <div class="second-card-img"></div>
-                        <div class="card-description">
-                            <h3 class="card-title">Playas y sol</h3>
-                            <p class="card-text">Aquí la descripción de <span>Playas y sol</span>.</p>
+                        <div class="tendencias-card-description">
+                            <h3 class="tendencias-card-title">Montañas y magia</h3>
+                            <p class="tendencias-card-text">Aquí la descripción de <span>Montañas y magia</span>.</p>
                         </div>
                     </article>
-                    <article class="card third-card">
-                        <div class="third-card-img"></div>
-                        <div class="card-description">
-                            <h3 class="card-title">Nieve y aventura</h3>
-                            <p class="card-text">Aquí la descripción de <span>Nieve y aventura</span>.</p>
+                    <article class="tendencias-card tendencias-second-card">
+                        <div class="tendencias-second-img"></div>
+                        <div class="tendencias-card-description">
+                            <h3 class="tendencias-card-title">Playas y sol</h3>
+                            <p class="tendencias-card-text">Aquí la descripción de <span>Playas y sol</span>.</p>
+                        </div>
+                    </article>
+                    <article class="tendencias-card tendencias-third-card">
+                        <div class="tendencias-third-img"></div>
+                        <div class="tendencias-card-description">
+                            <h3 class="tendencias-card-title">Nieve y aventura</h3>
+                            <p class="tendencias-card-text">Aquí la descripción de <span>Nieve y aventura</span>.</p>
                         </div>
                     </article>
                 </div>
@@ -117,50 +116,50 @@
                 <div class="blog-entries">
                     <!-------------------------------------RECENT ENTRIES------------------------------------->
                     <div class="recent-entries">
-                        <article class="recent-article first-article">
-                            <h3 class="recent-article-title">CIUDAD</h3>
-                            <div class="article-description">
-                                <h4 class="recent-article-subtitle">Artículo de puente</h4>
-                                <p class="recent-article-text">Un puente es una construcción que permite salvar un accidente geográfico como un río.</p>
-                                <span class="article-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 2m</span>
+                        <article class="recent-entry first-entry">
+                            <h3 class="recent-entry-title">CIUDAD</h3>
+                            <div class="entry-description">
+                                <h4 class="recent-entry-subtitle">Artículo de puente</h4>
+                                <p class="recent-entry-text">Un puente es una construcción que permite salvar un accidente geográfico como un río.</p>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 2m</span>
                             </div>
                         </article>
-                        <article class="recent-article second-article">
-                            <h3 class="recent-article-title">AVENTURA</h3>
-                            <div class="article-description">
-                                <h4 class="recent-article-subtitle">Artículo de bosque</h4>
-                                <p class="recent-article-text">Lugar poblado de árboles y arbustos. Área con una importante densidad de árboles.</p>
-                                <span class="article-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 15m</span>
+                        <article class="recent-entry second-entry">
+                            <h3 class="recent-entry-title">AVENTURA</h3>
+                            <div class="entry-description">
+                                <h4 class="recent-entry-subtitle">Artículo de bosque</h4>
+                                <p class="recent-entry-text">Lugar poblado de árboles y arbustos. Área con una importante densidad de árboles.</p>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 15m</span>
                             </div>
                         </article>
                     </div>
                     <!-------------------------------------OLDER ENTRIES------------------------------------->
                     <div class="older-entries">
-                        <article class="older-article">
+                        <article class="older-entry">
                             <div class="first-img older-img">
                                 <img src="Assets\img\articulo_small_01.png">
                             </div>
                             <div class="older-info">
-                                <h4 class="older-article-title">Articulo de elefante</h4>
-                                <span class="article-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 3h</span>
+                                <h4 class="older-entry-title">Articulo de elefante</h4>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 3h</span>
                             </div>
                         </article>
-                        <article class="older-article">
+                        <article class="older-entry">
                             <div class="second-img older-img">
                                 <img src="Assets\img\articulo_small_02.png">
                             </div>
                             <div class="older-info">
-                                <h4 class="older-article-title">Articulo de loro</h4>
-                                <span class="article-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 4h</span>
+                                <h4 class="older-entry-title">Articulo de loro</h4>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 4h</span>
                             </div>
                         </article>
-                        <article class="older-article">
+                        <article class="older-entry">
                             <div class="third-img older-img">
                                 <img src="Assets\img\articulo_small_03.png">
                             </div>
                             <div class="older-info">
-                                <h4 class="older-article-title">Articulo de camino</h4>
-                                <span class="article-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 8h</span>
+                                <h4 class="older-entry-title">Articulo de camino</h4>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 8h</span>
                             </div>
                         </article>
                     </div>
