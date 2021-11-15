@@ -19,7 +19,7 @@ section, header, footer {
 .web-header {
     background: #FFFFFF;
     box-shadow: 0px 3px 6px #00000029;
-    height: 60px;
+    height: 8.5vh;
     display: flex;
     position: fixed;
     z-index: 3;
@@ -63,7 +63,6 @@ section, header, footer {
 }
 
 /*--------------------------------------------COVER-------------------------------------*/
-
 .cover {
     background-image: url(Assets/img/Viajes_Hero.jpg);
     background-size: cover;
@@ -72,11 +71,11 @@ section, header, footer {
 }
 
 .cover article {
-    width: 720px;
-    height: 214px;
+    width: 53%;
+    height: 35%;
     position: absolute;
-    top: 277px;
-    left: 110px;
+    top: 38%;
+    left: 8%;
 }
 
 .cover-header {
@@ -85,55 +84,53 @@ section, header, footer {
 }
 
 .pin {
-    width: 23.8px;
-    height: 34px
+    width: 1.5em;
+    height: 2.2em;
 }
 
 .cover-title {
-    text-align: left;
-    font-size: 48px;
-    line-height: 42px;
+    font-size: 3em;
+    line-height: 1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 0px;
     color: #FFFFFF;
-    margin: 0 17.5px
+    margin-left: 17.5px;
 }
 
 .divider {
-    border: 2px solid #FFFFFF;
-    width: 536px;
+    border: 1.5px solid #FFFFFF;
+    width: 74%;
     margin: 30.6px 0 23.36px 0;
     background-color: #FFFFFF;
 }
 
 .cover-subtitle {
-    text-align: left;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 1.5em;
+    line-height: 1.5em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 0px;
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 20px;;
 }
 
 .cover-text {
-    text-align: left;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1em;
+    line-height: 1.6em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     letter-spacing: 0px;
     color: #FFFFFF;
     width: 535.7px;
-    height: 80px;
+    width: 74%;
+    height: fit-content;
 }
 
 .cover-slider {
     position: absolute;
     left: 0;
-    bottom: 70px
+    bottom: 10%
 }
 
 .slider-line {
@@ -148,8 +145,8 @@ section, header, footer {
 .slider-back-circle {
     position: absolute;
     background-color: #ffffff80;
-    width: 55px;
-    height: 55px;
+    width: 3.4em;
+    height: 3.4em;
     border-radius: 50%;
     bottom: -25px;
     left: 100px
@@ -158,8 +155,8 @@ section, header, footer {
 .slider-front-circle {
     position: absolute;
     background-color: #ffffff;
-    width: 35px;
-    height: 35px;
+    width: 2.2em;
+    height: 2.2em;
     border-radius: 50%;
     bottom: -16px;
     left: 110px;
@@ -172,7 +169,7 @@ section, header, footer {
 .slider-front-circle span {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 13px;
+    font-size: 0.9em;
     font-weight: 700;
 }
 
@@ -183,12 +180,12 @@ section, header, footer {
     border: 2px dashed #FFFFFF;
     border-radius: 6px;
     position: absolute;
-    bottom: 70px;
-    left: 967px;
+    bottom: 9.5%;
+    left: 70.8%;
 }
 
 .next-link {
-    margin: 27px 30px 29px 30px;
+    margin: 27px;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -751,8 +748,8 @@ section, header, footer {
 
 }
 
-/*-------------------------------------Breakpoint 411px-------------------------*/
-@media screen and (max-width: 411px) {
+/*-------------------------------------Breakpoint 430px-------------------------*/
+@media screen and (max-width: 430px) {
 
 /*--------------------------------GENERAL--------------------------------------*/
     section, header, footer {
@@ -773,7 +770,7 @@ section, header, footer {
 }
 
 .cover article {
-    width: 90%;
+    width: 88%;
     top: 310px;
     left: 35px;
 }
@@ -806,10 +803,8 @@ section, header, footer {
     padding: 80px 35px;
 }
 
-
 .card {
     margin: 40px auto;
-    align-self: center;
 }
 
 /*------------------------------BLOG-----------------------------------*/
@@ -817,8 +812,12 @@ section, header, footer {
     padding: 0;
 }
 
+.blog-entries {
+    flex-direction: column;
+}
+
 .recent-article {
     margin: 20px 0px;
-    width:281px
+    align-self: stretch;
 }
 }
