@@ -15,6 +15,10 @@ section, header, footer {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*--------------------------------WEB HEADER-----------------------------------------------*/
 .web-header {
     background: #FFFFFF;
@@ -43,7 +47,6 @@ section, header, footer {
 }
 
 .nav-link {
-    text-decoration: none;
     font-size: 18px;
     line-height: 13px;
     font-family: 'Montserrat', sans-serif;
@@ -567,7 +570,6 @@ footer {
 
     .menu-toggle a
     {
-        text-decoration: none;
         color: #232323;
     }
 

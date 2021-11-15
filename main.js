@@ -7,6 +7,8 @@ const toggleMenu = () => {
     hamburgerIcon.classList.toggle("hidden");
     closeIcon.classList.toggle("hidden");
     menu.classList.toggle("hidden");
+    menu.ariaExpanded = "true";
+    menuBttn.ariaLabel = "cerrar menu"
 }
 
 const closeMenu = () => {
@@ -14,6 +16,8 @@ const closeMenu = () => {
     closeIcon.classList.add("hidden");
     menu.classList.add("hidden");
     hamburgerIcon.classList.remove("hidden");
+    menu.ariaExpanded = "false"
+    menuBttn.ariaLabel = "abrir menu"
     }
 }
 

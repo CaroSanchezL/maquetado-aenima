@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@
     <header class="web-header">
         <div class="header-container">
             <div>
-                <img src="Assets\logo\logo_01.svg" class="logo">
+                <img src="Assets\logo\logo_01.svg" class="logo" aria-label="viajes">
             </div>
             <nav class="desktop-nav">
                 <ul class="nav-list">
@@ -27,12 +27,12 @@
             </nav>
             <nav class="hamburger-menu">
                 <div class="menu-toggle">
-                    <button id="menu-button">
-                        <img src="Assets/iconos/hamburguer_menu.svg" id="hamburguer-icon">
-                        <img src="Assets/iconos/No.svg" class="close-icon hidden" id="close-icon">
+                    <button id="menu-button" aria-controls="menu" aria-label="abrir menú">
+                        <img src="Assets/iconos/hamburguer_menu.svg" id="hamburguer-icon" aria-hidden="true">
+                        <img src="Assets/iconos/No.svg" class="close-icon hidden" id="close-icon" aria-hidden="true">
                     </button>
                 </div>
-                <div class="menu hidden" id="menu">
+                <div class="menu hidden" id="menu" aria-expanded="false" aria-label="menú">
                     <div class="dark-side-menu"></div>
                     <ul class="menu-links">
                         <li><a href="#home" class="nav-link">HOME</a></li>
@@ -49,7 +49,7 @@
         <section class="cover" id="home">
             <article>
                 <header class="cover-header">
-                    <img class="pin" src="Assets\iconos\ic_pin.svg">
+                    <img class="pin" src="Assets\iconos\ic_pin.svg" aria-hidden="true">
                     <h2 class="cover-title">AMERICA DEL SUR</h2>
                 </header>
                 <div class="divider"></div>
@@ -62,14 +62,14 @@
                 <div class="slider-line"></div>
                 <div class="slider-back-circle"></div>
                 <div class="slider-front-circle">
-                    <span>01</span>
+                    <span aria-hidden="true">01</span>
                 </div>
             </div>
             <div class="next-cover-container">
-                <a class="next-link">
+                <a href="#" class="next-link">
                     <div class="next-title-icon">
                         <h3 class="next-title">PROXIMA AVENTURA</h3>
-                        <img class="arrow" src="Assets\iconos\arrow.svg">
+                        <img class="arrow" src="Assets\iconos\arrow.svg" aria-hidden="true">
                     </div>
                     <h4 class="next-subtitle">Europa Meridional</h4>
                     <p class="next-text">Forman parte 20 países, ej. España, Francia, etc.</p>
@@ -83,28 +83,28 @@
                 <h2 class="section-title">TENDENCIAS</h2>
                 <div class="tendencias-cards-container">
                     <article class="tendencias-card tendencias-first-card">
-                        <div class="tendencias-first-img"></div>
+                        <div class="tendencias-first-img" role="img" aria-label="Montañas con vegetación y un espejo de agua"></div>
                         <div class="tendencias-new">
                             <span class="tendencias-new-text">NUEVO</span>
                         </div>
-                        <div class="tendencias-card-description">
+                        <a href="#" class="tendencias-card-description">
                             <h3 class="tendencias-card-title">Montañas y magia</h3>
                             <p class="tendencias-card-text">Aquí la descripción de <span>Montañas y magia</span>.</p>
-                        </div>
+                        </a>
                     </article>
                     <article class="tendencias-card tendencias-second-card">
-                        <div class="tendencias-second-img"></div>
-                        <div class="tendencias-card-description">
+                        <div class="tendencias-second-img" role="img" aria-label="Sombrillas y reposeras en una playa"></div>
+                        <a href="#" class="tendencias-card-description">
                             <h3 class="tendencias-card-title">Playas y sol</h3>
                             <p class="tendencias-card-text">Aquí la descripción de <span>Playas y sol</span>.</p>
-                        </div>
+                        </a>
                     </article>
                     <article class="tendencias-card tendencias-third-card">
-                        <div class="tendencias-third-img"></div>
-                        <div class="tendencias-card-description">
+                        <div class="tendencias-third-img" role="img" aria-label="Dos personas en la nieve"></div>
+                        <a href="#" class="tendencias-card-description">
                             <h3 class="tendencias-card-title">Nieve y aventura</h3>
                             <p class="tendencias-card-text">Aquí la descripción de <span>Nieve y aventura</span>.</p>
-                        </div>
+                        </a>
                     </article>
                 </div>
             </div>
@@ -118,49 +118,49 @@
                     <div class="recent-entries">
                         <article class="recent-entry first-entry">
                             <h3 class="recent-entry-title">CIUDAD</h3>
-                            <div>
+                            <a href="#">
                                 <h4 class="recent-entry-subtitle">Artículo de puente</h4>
                                 <p class="recent-entry-text">Un puente es una construcción que permite salvar un accidente geográfico como un río.</p>
-                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 2m</span>
-                            </div>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img" aria-hidden="true">Hace 2m</span>
+                            </a>
                         </article>
                         <article class="recent-entry second-entry">
                             <h3 class="recent-entry-title">AVENTURA</h3>
-                            <div>
+                            <a href="#">
                                 <h4 class="recent-entry-subtitle">Artículo de bosque</h4>
                                 <p class="recent-entry-text">Lugar poblado de árboles y arbustos. Área con una importante densidad de árboles.</p>
-                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 15m</span>
-                            </div>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img" aria-hidden="true">Hace 15m</span>
+                            </a>
                         </article>
                     </div>
                     <!-------------------------------------OLDER ENTRIES------------------------------------->
                     <div class="older-entries">
                         <article class="older-entry">
                             <div class="older-img">
-                                <img src="Assets\img\articulo_small_01.png">
+                                <img src="Assets\img\articulo_small_01.png" alt="Elefante sacudiendose tierra">
                             </div>
-                            <div class="older-info">
+                            <a href="#" class="older-info">
                                 <h4 class="older-entry-title">Articulo de elefante</h4>
-                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 3h</span>
-                            </div>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img" aria-hidden="true">Hace 3h</span>
+                            </a>
                         </article>
                         <article class="older-entry">
                             <div class="older-img">
-                                <img src="Assets\img\articulo_small_02.png">
+                                <img src="Assets\img\articulo_small_02.png" alt="Loro en la vegetación">
                             </div>
-                            <div class="older-info">
+                            <a href="#" class="older-info">
                                 <h4 class="older-entry-title">Articulo de loro</h4>
-                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 4h</span>
-                            </div>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img" aria-hidden="true">Hace 4h</span>
+                            </a>
                         </article>
                         <article class="older-entry">
                             <div class="older-img">
-                                <img src="Assets\img\articulo_small_03.png">
+                                <img src="Assets\img\articulo_small_03.png" alt="Camino en la selva">
                             </div>
-                            <div class="older-info">
+                            <a href="#" class="older-info">
                                 <h4 class="older-entry-title">Articulo de camino</h4>
-                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img">Hace 8h</span>
-                            </div>
+                                <span class="entry-timestamp"><img src="Assets\iconos\time.svg" class="clock-img" aria-hidden="true">Hace 8h</span>
+                            </a>
                         </article>
                     </div>
                 </div>
@@ -171,11 +171,11 @@
     <footer>
         <div class="footer-container">
             <div>
-                <img src="Assets\logo\logo_02.svg">
+                <img src="Assets\logo\logo_02.svg" aria-hidden="true" >
             </div>
             <div class="rrss">                
-                <img src="Assets\iconos\instagram.svg" alt="">  
-                <img src="Assets\iconos\facebook.svg" alt="">          
+                <a a href="#" aria-label="instagram"><img src="Assets\iconos\instagram.svg" aria-hidden="true"></a>
+                <a a href="#" aria-label="facebook"><img src="Assets\iconos\facebook.svg" aria-hidden="true"></a>       
             </div>
         </div>
     </footer>
