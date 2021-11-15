@@ -358,7 +358,7 @@ a {
     display: flex;
 }
 
-.recent-entries, .older-entries {
+.blog-recent-entries, .blog-older-entries {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -366,7 +366,7 @@ a {
 
 /*--------------------------------Recent entries----------------------------------*/
 
-.recent-entry {
+.blog-recent-entry {
     border-radius: 6px;
     width: 676px;
     height: 343.2px;
@@ -378,15 +378,15 @@ a {
     margin: 20px 8px;
 }
 
-.first-entry {
+.blog-first-entry {
     background-image: url(Assets/img/articulo_big_01.png);
 }
 
-.second-entry {
+.blog-second-entry {
     background-image: url(Assets/img/articulo_big_02.png)
 }
 
-.recent-entry-title {
+.blog-recent-title {
     font-size: 16px;
     line-height: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -395,7 +395,7 @@ a {
     color: #FFFFFF;
 }
 
-.recent-entry-subtitle {
+.blog-recent-subtitle {
     font-size: 24px;
     line-height: 34px;
     font-family: 'Montserrat', sans-serif;
@@ -404,7 +404,7 @@ a {
     color: #FFFFFF;
 }
 
-.recent-entry-text {
+.blog-recent-text {
     font-size: 16px;
     line-height: 26px;
     font-family: 'Montserrat', sans-serif;
@@ -416,23 +416,23 @@ a {
 
 /*---------------------------------------------Older entries------------------------------------*/
 
-.older-entry {
+.blog-older-entry {
     color: #202124;
     margin: 20px 8px;
     width: 352px;
     height: 272px;    
 }
 
-.older-entry a {
+.blog-older-entry a {
     color: #232323
 }
 
-.older-img {
+.blog-older-img {
     width: 352px;
     height: 210px;
 }
 
-.older-entry-title {
+.blog-older-title {
     font-size: 16px;
     line-height: 26px;
     font-family: acumin-pro, sans-serif;
@@ -526,7 +526,7 @@ footer {
 
 /*---------------------------------Older entries---------------------------------*/
 
-    .older-entries {
+    .blog-older-entries {
         display: none;
     }
 }
@@ -666,7 +666,7 @@ footer {
 /*-------------------------------BLOG----------------------------------------*/
 /*---------------------------Recent entries----------------------------------*/
 
-    .recent-entry {
+    .blog-recent-entry {
         width: unset;
         background-position: 50%
     }
@@ -749,7 +749,7 @@ footer {
 
 /*---------------------------Recent entry----------------------------------*/
 
-    .recent-entry-text {
+    .blog-recent-text {
         display: none;
     }
 
@@ -827,7 +827,7 @@ footer {
         flex-direction: column;
     }
 
-    .recent-entry {
+    .blog-recent-entry {
         margin: 20px 0px;
         align-self: stretch;
     }
