@@ -43,18 +43,17 @@ section, header, footer {
 }
 
 .nav-link {
-    text-align: left;
     text-decoration: none;
     font-size: 18px;
     line-height: 13px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     letter-spacing: 0px;
-    margin: 17px 33px 22px 0;
+    margin-right: 33px;
     color: #CBD0D3;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
     color: #2A3037
 }
 
@@ -214,7 +213,6 @@ section, header, footer {
 }
 
 .next-subtitle {
-    text-align: left;
     font-size: 16px;
     line-height: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -225,7 +223,6 @@ section, header, footer {
 }
 
 .next-text {
-    text-align: left;
     font-size: 14px;
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
@@ -242,7 +239,6 @@ section, header, footer {
 }
 
 .section-title {
-    text-align: left;
     font-size: 24px;
     line-height: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -261,11 +257,10 @@ section, header, footer {
 }
 
 .tendencias-new {
-    background: #FA6980 0% 0% no-repeat padding-box;
+    background: #FA6980;
     border-radius: 6px;
     height: 32px;
     width: 83px;
-    text-align: left;
     font-size: 16px;
     line-height: 13px;
     font-family: 'Montserrat', sans-serif;
@@ -322,7 +317,6 @@ section, header, footer {
 }
 
 .tendencias-card-title {
-    text-align: left;
     font-size: 16px;
     line-height: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -332,7 +326,6 @@ section, header, footer {
 }
 
 .tendencias-card-text {
-    text-align: left;
     font-size: 13px;
     line-height: 23px;
     font-family: 'Open Sans', sans-serif;
@@ -391,7 +384,6 @@ section, header, footer {
 }
 
 .recent-entry-title {
-    text-align: left;
     font-size: 16px;
     line-height: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -401,7 +393,6 @@ section, header, footer {
 }
 
 .recent-entry-subtitle {
-    text-align: left;
     font-size: 24px;
     line-height: 34px;
     font-family: 'Montserrat', sans-serif;
@@ -411,7 +402,6 @@ section, header, footer {
 }
 
 .recent-entry-text {
-    text-align: left;
     font-size: 16px;
     line-height: 26px;
     font-family: 'Montserrat', sans-serif;
@@ -437,7 +427,6 @@ section, header, footer {
 }
 
 .older-entry-title {
-    text-align: left;
     font-size: 16px;
     line-height: 26px;
     font-family: acumin-pro, sans-serif;
@@ -446,7 +435,6 @@ section, header, footer {
 }
 
 .entry-timestamp {
-    text-align: left;
     font-size: 13px;
     line-height: 26px;
     font-family: 'Montserrat', sans-serif;
@@ -655,7 +643,6 @@ footer {
     }
 
     .cover-title {
-        text-align: left;
         font-size: 30px;
         line-height: 24px;
         font-family: 'Montserrat', sans-serif;
