@@ -13,9 +13,9 @@ const closeMenu = () => {
     if (hamburgerIcon.classList.contains("hidden")) {
     closeIcon.classList.add("hidden");
     menu.classList.add("hidden");
-    hamburgerIcon.classList.remove("hidden")
+    hamburgerIcon.classList.remove("hidden");
     }
 }
 
 menuBttn.addEventListener("click", toggleMenu);
-menu.addEventListener("click", closeMenu)
+menu.addEventListener("click", closeMenu);
