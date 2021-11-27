@@ -295,22 +295,6 @@ a {
     flex-direction: column;
 }
 
-.tendencias-first-img, .tendencias-second-img, .tendencias-third-img {
-    height: 57.4%;
-}
-
-.tendencias-first-img {    
-    background-image: url(Assets/img/card_01.png);
-}
-
-.tendencias-second-img{
-    background-image: url(Assets/img/card_02.png);
-}
-
-.tendencias-third-img {
-    background-image: url(Assets/img/card_03.png);
-}
-
 .tendencias-card-description {
     padding: 33px;
     display: flex;    

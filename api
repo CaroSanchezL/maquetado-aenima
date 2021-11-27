@@ -9,7 +9,7 @@
     {
         "id": "2",
         "title": "Playas y Sol",
-        "image": "/Assets/img/card_02.png",
+        "image": "Assets/img/card_02.png",
         "description": "Descripción blablabla",
         "date": "30-11-2021"
     },
