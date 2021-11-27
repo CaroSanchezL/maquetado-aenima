@@ -1,0 +1,24 @@
+[
+    {
+        "id": "1",
+        "title": "Montañas y Magia",
+        "image": "Assets/img/card_01.png",
+        "description": "Descripción blablabla",
+        "date": "29-11-2021"
+    },
+    {
+        "id": "2",
+        "title": "Playas y Sol",
+        "image": "/Assets/img/card_02.png",
+        "description": "Descripción blablabla",
+        "date": "30-11-2021"
+    },
+    {
+        "id": "3",
+        "title": "Nieve y Aventura",
+        "image": "Assets/img/card_03.png",
+        "description": "Descripción blablabla",
+        "date": "01-12-2021"
+    }
+]
+
